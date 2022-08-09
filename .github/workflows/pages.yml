@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - dev
-
+inputs: 
+  workings-dir:
+    default: 'ganievs.github.io'
 jobs:
   build:
     runs-on: ubuntu-latest
